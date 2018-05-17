@@ -1,5 +1,5 @@
 function delivery(order_id, opt){
-	var url = '/dashboard_client/delivery/' + order_id + '/' + opt;
+	var url = '/area_do_cliente/delivery/' + order_id + '/' + opt;
 	window.self.location.href = url;
 }
 
